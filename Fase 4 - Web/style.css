@@ -1,0 +1,106 @@
+html{
+    background-image: url(/assets/background.blur.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: "Metrophobic";
+}
+
+.login{
+    font-size: 50px;
+    font: bold;
+    text-align: center;
+    width: 400px;
+}
+
+.field{
+    width: 400px;
+    height: 2.2rem;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+#ddd{
+    width: 50px;
+    height: 2.2rem;
+    border-radius: 8px;
+    border: 1px solid black;
+    -webkit-appearance: none;
+    padding: 0;
+}
+
+#telefone{
+    width: 345px;
+    height: 2.2rem;
+    border-radius: 8px;
+    border: 1px solid black;
+    -webkit-appearance: none;
+    padding: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+
+.middle{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.reminder{
+    font-weight: bolder;
+}
+
+.btn-login{
+    background-color: rgba(0, 0, 0, 0.87);
+    width: 400px;
+    height: 2.2rem;
+    color: rgb(255,255,255);
+    border-radius: 8px;
+    border: 1px transparent;
+    font-weight: bolder;
+}
+
+.opcoes{
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.facebook{
+    background-color: rgb(24, 119, 242);
+    width: 400px;
+    height: 2.2rem;
+    border: rgb(24, 119, 242);
+    border-radius: 8px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE1Ljk0NjIgOC45NDk5N0gxMi45NVY3LjI0OTk4QzEyLjk1IDYuMzcyNzggMTMuMDIxNCA1LjgyMDI4IDE0LjI3ODUgNS44MjAyOEgxNS44NjYzVjMuMTE3MjlDMTUuMDkzNyAzLjAzNzM5IDE0LjMxNjggMi45OTgyOSAxMy41MzkgMi45OTk5OUMxMS4yMzMgMi45OTk5OSA5LjU0OTk5IDQuNDA4NDQgOS41NDk5OSA2Ljk5NDEzVjguOTQ5OTdIN1YxMi4zNUw5LjU0OTk5IDEyLjM0OTFWMTkuOTk5OUgxMi45NVYxMi4zNDc0TDE1LjU1NjEgMTIuMzQ2NkwxNS45NDYyIDguOTQ5OTdaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid black;
+}
+
+.google{
+    border: 1px solid black;
+    width: 400px;
+    height: 2.2rem;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxLjgwNTUgMTAuMDQxNUgyMVYxMEgxMlYxNEgxNy42NTE1QzE2LjgyNyAxNi4zMjg1IDE0LjYxMTUgMTggMTIgMThDOC42ODY1IDE4IDYgMTUuMzEzNSA2IDEyQzYgOC42ODY1IDguNjg2NSA2IDEyIDZDMTMuNTI5NSA2IDE0LjkyMSA2LjU3NyAxNS45ODA1IDcuNTE5NUwxOC44MDkgNC42OTFDMTcuMDIzIDMuMDI2NSAxNC42MzQgMiAxMiAyQzYuNDc3NSAyIDIgNi40Nzc1IDIgMTJDMiAxNy41MjI1IDYuNDc3NSAyMiAxMiAyMkMxNy41MjI1IDIyIDIyIDE3LjUyMjUgMjIgMTJDMjIgMTEuMzI5NSAyMS45MzEgMTAuNjc1IDIxLjgwNTUgMTAuMDQxNVoiIGZpbGw9IiNGQkJCMDAiLz4KPHBhdGggZD0iTTMuMTUyODMgNy4zNDU1TDYuNDM4MzMgOS43NTVDNy4zMjczMyA3LjU1NCA5LjQ4MDMzIDYgMTEuOTk5OCA2QzEzLjUyOTMgNiAxNC45MjA4IDYuNTc3IDE1Ljk4MDMgNy41MTk1TDE4LjgwODggNC42OTFDMTcuMDIyOCAzLjAyNjUgMTQuNjMzOCAyIDExLjk5OTggMkM4LjE1ODgzIDIgNC44Mjc4MyA0LjE2ODUgMy4xNTI4MyA3LjM0NTVaIiBmaWxsPSIjRkYzRDAwIi8+CjxwYXRoIGQ9Ik0xMi4wMDAyIDIyQzE0LjU4MzIgMjIgMTYuOTMwMiAyMS4wMTE1IDE4LjcwNDcgMTkuNDA0TDE1LjYwOTcgMTYuNzg1QzE0LjYwNTcgMTcuNTQ1NSAxMy4zNTc3IDE4IDEyLjAwMDIgMThDOS4zOTkxNiAxOCA3LjE5MDY2IDE2LjM0MTUgNi4zNTg2NiAxNC4wMjdMMy4wOTc2NiAxNi41Mzk1QzQuNzUyNjYgMTkuNzc4IDguMTEzNjYgMjIgMTIuMDAwMiAyMloiIGZpbGw9IiM0Q0FGNTAiLz4KPHBhdGggZD0iTTIxLjgwNTUgMTAuMDQxNUgyMVYxMEgxMlYxNEgxNy42NTE1QzE3LjI1NTUgMTUuMTE4NSAxNi41MzYgMTYuMDgzIDE1LjYwOCAxNi43ODU1QzE1LjYwODUgMTYuNzg1IDE1LjYwOSAxNi43ODUgMTUuNjA5NSAxNi43ODQ1TDE4LjcwNDUgMTkuNDAzNUMxOC40ODU1IDE5LjYwMjUgMjIgMTcgMjIgMTJDMjIgMTEuMzI5NSAyMS45MzEgMTAuNjc1IDIxLjgwNTUgMTAuMDQxNVoiIGZpbGw9IiMxOTc2RDIiLz4KPC9zdmc+Cg==);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 8px;
+}
+
+.lnk{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 15px;
+}

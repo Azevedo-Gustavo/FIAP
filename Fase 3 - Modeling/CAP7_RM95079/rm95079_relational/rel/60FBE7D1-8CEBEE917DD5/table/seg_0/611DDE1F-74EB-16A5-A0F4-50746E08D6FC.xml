@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="611DDE1F-74EB-16A5-A0F4-50746E08D6FC" name="CATEGORIA">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:24 UTC</createdTime>
+<generatorID>7FDBB144-B731-0C76-C42F-EC0D545348A7</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_categoria" id="D4E6BC55-D345-36C6-8AD1-3CC8A35851A8">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:24 UTC</createdTime>
+<generatorID>C4D70F2E-DBB1-0432-F02B-D3856C13C756</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GASTAR_ds_gasto" id="973B366E-8706-A4F2-09A6-E89DA77CE720">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:24 UTC</createdTime>
+<generatorID>B3AA86C9-450F-429F-71C1-9EAB2394A313</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F66335F-BBD9-28F1-4E65-8B8E8E448000" referredColumn="EC45298C-D539-AC87-D6DF-A4D748330713"/>
+</associations>
+</Column>
+<Column name="GASTAR_USUARIO_cd_usuario" id="191D6E4D-6D23-7340-8BBA-390C0B1D9CB8">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:24 UTC</createdTime>
+<generatorID>8D8DDE44-25AC-2477-A35E-EE6963D3E701</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F66335F-BBD9-28F1-4E65-8B8E8E448000" referredColumn="E687237A-1FAF-C790-4AF4-1D1BEE22F22F"/>
+</associations>
+</Column>
+<Column name="ds_categoria" id="0F0EBE49-EEE5-2BCF-C5BB-05F41A5EF668">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:24 UTC</createdTime>
+<generatorID>266C2821-D395-BB9A-1BA6-CDCE6710E878</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2A90B89-8407-118F-5154-67B6A88A7F96" name="CATEGORIA_PK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:24 UTC</createdTime>
+<generatorID>0D004322-5B87-31EC-1D19-1B60ED47A8F9</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4E6BC55-D345-36C6-8AD1-3CC8A35851A8"/>
+<colUsage columnID="973B366E-8706-A4F2-09A6-E89DA77CE720"/>
+<colUsage columnID="191D6E4D-6D23-7340-8BBA-390C0B1D9CB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81F22B09-F866-67ED-3250-6224A9EAD606" name="CATEGORIA_GASTAR_FK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>16F596D9-D014-FD6A-8FA4-D92EA5F73615</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="973B366E-8706-A4F2-09A6-E89DA77CE720"/>
+<colUsage columnID="191D6E4D-6D23-7340-8BBA-390C0B1D9CB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

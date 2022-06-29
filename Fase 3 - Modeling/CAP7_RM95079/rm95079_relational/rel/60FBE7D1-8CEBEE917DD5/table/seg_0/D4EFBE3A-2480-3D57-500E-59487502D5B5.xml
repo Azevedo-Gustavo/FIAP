@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4EFBE3A-2480-3D57-500E-59487502D5B5" name="GASTAR">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>FCD20244-4523-985F-B425-9ECC87C49DF7</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ds_gasto" id="EC45298C-D539-AC87-D6DF-A4D748330713">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>83DD1613-91DA-177B-9D30-12D89403365D</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_cd_usuario" id="E687237A-1FAF-C790-4AF4-1D1BEE22F22F">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>BF3A64B2-E8EB-301F-2146-6884030BF80D</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F798200-643D-B16C-0DA8-0D57CDD91AB3" referredColumn="3AD9FF87-2ADB-D87C-0F8A-B95CDFB04B75"/>
+</associations>
+</Column>
+<Column name="qtd_gasto" id="226B8528-E282-D19C-3559-86F1E4614545">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>AECE8ACE-C728-8269-51F8-6F94DD1B3C1F</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_gasto" id="C17B9A35-C5ED-19B7-7D06-FE4EF6801AF3">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>D3450BD0-8BC0-3E2C-53FE-5F0A387BD8F4</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_gasto" id="F1797782-B470-B428-2792-329A595B5463">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>34A16C41-4B9B-04CA-5E78-C8E221D67AAB</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E71D9212-31DE-1EEE-E809-453AC5CE98E8" name="GASTAR_PK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>65DA0C8C-2ACD-0C68-F49B-A02120B9BBFD</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC45298C-D539-AC87-D6DF-A4D748330713"/>
+<colUsage columnID="E687237A-1FAF-C790-4AF4-1D1BEE22F22F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99C65F63-4A32-2C54-F514-AF84DF05C0E5" name="GASTAR_USUARIO_FK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>27E53442-B51D-A653-5319-294759CA3D54</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E687237A-1FAF-C790-4AF4-1D1BEE22F22F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C54A6D32-628F-7BC9-DFCD-AF368C93CBA0" name="GENERO">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>0FE7684D-66E0-ACD0-D496-C965321242B8</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_genero" id="636444F2-06CD-87DB-BE4D-AF54D972FDCB">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>A93611AD-605D-9A94-8288-478FA3FCEC12</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_cd_usuario" id="3CA4C735-2CBF-A334-B0BF-1875AB4BF6C4">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>B39317F8-9FF8-DC1F-73A3-1F06A193C9F6</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B5DB67A-E046-DDA6-BF30-A9172416234A" referredColumn="3AD9FF87-2ADB-D87C-0F8A-B95CDFB04B75"/>
+</associations>
+</Column>
+<Column name="ds_genero" id="632ADB83-2BDE-1F40-9A6A-D4FAB08AF94B">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>99578B93-D0EF-439A-EB35-CCF7B862057B</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8319664-9035-3EAD-16D7-98A4F76BA574" name="GENERO_PK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>A52BB7F3-E863-EE58-3A49-CCF8995E1920</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="636444F2-06CD-87DB-BE4D-AF54D972FDCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D6C6AAB-D6D7-5A62-57E8-C9FCD1E82DAB" name="GENERO__IDX">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>13E2C503-683D-EF43-3652-2584D9BD7976</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3CA4C735-2CBF-A334-B0BF-1875AB4BF6C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFA8FD0C-8013-8662-5881-817BA9DD786D" name="GENERO_USUARIO_FK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>13E2C503-683D-EF43-3652-2584D9BD7976</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CA4C735-2CBF-A334-B0BF-1875AB4BF6C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0FE7684D-66E0-ACD0-D496-C965321242B8" name="GENERO">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 22:56:43 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_genero" id="A93611AD-605D-9A94-8288-478FA3FCEC12">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 22:56:52 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="B39317F8-9FF8-DC1F-73A3-1F06A193C9F6">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 22:58:17 UTC</createdTime>
+<generatorID>13E2C503-683D-EF43-3652-2584D9BD7976</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<referedAttribute>6692ABEC-2FD8-8D43-BA4E-0841FD6AB226</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_genero" id="99578B93-D0EF-439A-EB35-CCF7B862057B">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 22:57:20 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A52BB7F3-E863-EE58-3A49-CCF8995E1920" name="GENERO PK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 22:57:17 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A93611AD-605D-9A94-8288-478FA3FCEC12</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

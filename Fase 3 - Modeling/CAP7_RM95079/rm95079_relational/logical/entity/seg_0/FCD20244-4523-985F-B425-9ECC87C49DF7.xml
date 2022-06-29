@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FCD20244-4523-985F-B425-9ECC87C49DF7" name="GASTAR">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-22 21:20:22 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ds_gasto" id="83DD1613-91DA-177B-9D30-12D89403365D">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-22 21:21:17 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="BF3A64B2-E8EB-301F-2146-6884030BF80D">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-22 21:23:19 UTC</createdTime>
+<generatorID>27E53442-B51D-A653-5319-294759CA3D54</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<referedAttribute>6692ABEC-2FD8-8D43-BA4E-0841FD6AB226</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd_gasto" id="AECE8ACE-C728-8269-51F8-6F94DD1B3C1F">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-22 21:21:52 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_gasto" id="D3450BD0-8BC0-3E2C-53FE-5F0A387BD8F4">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-22 21:33:28 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_gasto" id="34A16C41-4B9B-04CA-5E78-C8E221D67AAB">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-22 21:39:30 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="65DA0C8C-2ACD-0C68-F49B-A02120B9BBFD" name="GASTO PK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-22 21:21:48 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>83DD1613-91DA-177B-9D30-12D89403365D</attributeRef>
+<attributeRef>BF3A64B2-E8EB-301F-2146-6884030BF80D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

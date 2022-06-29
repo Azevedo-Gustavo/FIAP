@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77C87DB6-A6FE-D38A-EFEA-C4D89F3AAA14" name="CELULAR">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:24 UTC</createdTime>
+<generatorID>0028003F-4B9A-75F6-6C64-681759ECC35E</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_celular" id="4CDA6A3F-8BD3-F49C-8F6C-93600B5281F9">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>79185CC5-5D93-B26D-D08A-EE61399009E3</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_cd_usuario" id="AB09475C-5185-3A68-04CD-5DF1A9907B9E">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>CE219CEC-1C23-BCDB-D4A3-5C9F0E0507B9</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D094947-AFCC-869D-AC2F-59CC62909331" referredColumn="3AD9FF87-2ADB-D87C-0F8A-B95CDFB04B75"/>
+</associations>
+</Column>
+<Column name="nr_ddd" id="8ED56F32-D5BD-E17E-8AD8-E651031B927B">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>DDE6918D-3E80-C88A-03B2-FEA6BAFB8370</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_ddi" id="CE8088D3-17CA-A744-BF72-29600BE7CE72">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>C6978B0B-25D8-660A-820D-D424ECF6D040</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6737FBC-776B-C3E9-71D4-0D5AC6B5289A" name="CELULAR_PK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>F0584689-F1E3-6385-22B3-D49C824EFFF7</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CDA6A3F-8BD3-F49C-8F6C-93600B5281F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9523E549-F05A-8B53-2D21-76058C08BB16" name="CELULAR__IDX">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F9A9ACE1-961E-5752-E1A9-586865070490</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AB09475C-5185-3A68-04CD-5DF1A9907B9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C691ED55-602F-5069-6ECB-5F5B3BAC4CB5" name="CELULAR_USUARIO_FK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>F9A9ACE1-961E-5752-E1A9-586865070490</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB09475C-5185-3A68-04CD-5DF1A9907B9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

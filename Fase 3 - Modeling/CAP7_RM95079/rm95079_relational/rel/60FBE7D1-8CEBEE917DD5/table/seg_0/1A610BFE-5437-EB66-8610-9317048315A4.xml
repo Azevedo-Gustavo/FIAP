@@ -1,0 +1,214 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A610BFE-5437-EB66-8610-9317048315A4" name="USUARIO">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>76C3C617-98E1-2137-D90B-AFC7B6479A6E</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_usuario" id="3AD9FF87-2ADB-D87C-0F8A-B95CDFB04B75">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>6692ABEC-2FD8-8D43-BA4E-0841FD6AB226</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CELULAR_nr_celular" id="C7A9AA41-C50A-97DC-AC1A-24C3C3EC3568">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>1EDFC3E5-FB58-5331-A361-8BCA2E2012AE</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B77CD7F-2714-2595-3757-E0BC43280029" referredColumn="4CDA6A3F-8BD3-F49C-8F6C-93600B5281F9"/>
+</associations>
+</Column>
+<Column name="CIDADE_cd_cidade" id="EF4E36A8-07B1-9702-31B1-874F17710B18">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>2C6D9406-2E3E-C088-00ED-1F23C9C3E5BC</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9767B77-C816-574C-4BE7-FA76BF8C4F59" referredColumn="F3BBB5EF-6CB5-4393-9797-7E3524BD25A5"/>
+</associations>
+</Column>
+<Column name="LOGIN_ds_email" id="33165145-76EE-9021-B97D-7C444FDD5B42">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>2D937ADE-B1B1-DFAB-416A-5A15FF551EEA</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95BD6E8E-C7AC-0B0D-A46C-50105AA5DE31" referredColumn="746D132E-B383-ED91-2C0E-711D613CF5A8"/>
+</associations>
+</Column>
+<Column name="nm_usuario" id="DE0455FA-5611-06ED-0567-0D59A248D1BD">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>A7AEC21A-79B1-0C32-7C8E-251B6B632CDC</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="E68FB9FD-4E9F-F84F-5D4B-6DB501E9EF36">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>E94D47BE-6A0E-62D4-F6F6-A2F7C07BC0B1</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO_cd_genero" id="2903ECDF-A7F9-4510-7542-272E2EC1C790">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>C12E76AE-482E-5E8F-34EF-4EAB801D97D2</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1D202A0-7CF8-3A96-29D3-DB276F875631" referredColumn="636444F2-06CD-87DB-BE4D-AF54D972FDCB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3FABF624-0466-9D9B-7295-F8CAB68DE7FE" name="USUARIO_PK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>D365A6F1-521C-757B-F2B9-4004E7E827B6</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AD9FF87-2ADB-D87C-0F8A-B95CDFB04B75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71F20490-95E3-35FB-F789-63394B68494E" name="USUARIO__IDX">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>13E2C503-683D-EF43-3652-2584D9BD7976</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2903ECDF-A7F9-4510-7542-272E2EC1C790"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E61D0180-2C62-1144-06CF-E5B83C8128D9" name="USUARIO__IDXv1">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F2430804-B5F8-C5E0-A828-DCEFDFE32418</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EF4E36A8-07B1-9702-31B1-874F17710B18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB947FEA-FC33-EE64-932C-171B63596AE3" name="USUARIO__IDXv2">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9377E7A0-814E-17A3-947D-4A063E602879</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="33165145-76EE-9021-B97D-7C444FDD5B42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EE808DC-0C2B-3E88-EBFF-F394FF808E65" name="USUARIO__IDXv3">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F9A9ACE1-961E-5752-E1A9-586865070490</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C7A9AA41-C50A-97DC-AC1A-24C3C3EC3568"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91DE94E5-9198-6916-0C11-9EAFF122551F" name="USUARIO_GENERO_FK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>13E2C503-683D-EF43-3652-2584D9BD7976</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2903ECDF-A7F9-4510-7542-272E2EC1C790"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2DBA7EA-246E-8247-766E-937BCE2FBE18" name="USUARIO_CIDADE_FK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>F2430804-B5F8-C5E0-A828-DCEFDFE32418</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF4E36A8-07B1-9702-31B1-874F17710B18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA60516D-695E-1E9A-A747-AF47B856A55E" name="USUARIO_LOGIN_FK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>9377E7A0-814E-17A3-947D-4A063E602879</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33165145-76EE-9021-B97D-7C444FDD5B42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BF4FDB3-AAE3-51D4-71CF-F46E611F4633" name="USUARIO_CELULAR_FK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>F9A9ACE1-961E-5752-E1A9-586865070490</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7A9AA41-C50A-97DC-AC1A-24C3C3EC3568"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

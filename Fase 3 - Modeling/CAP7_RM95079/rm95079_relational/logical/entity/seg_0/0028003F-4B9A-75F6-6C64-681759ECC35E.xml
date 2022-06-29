@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0028003F-4B9A-75F6-6C64-681759ECC35E" name="CELULAR">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-22 18:55:33 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_celular" id="79185CC5-5D93-B26D-D08A-EE61399009E3">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-22 18:55:39 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="CE219CEC-1C23-BCDB-D4A3-5C9F0E0507B9">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-22 19:00:53 UTC</createdTime>
+<generatorID>F9A9ACE1-961E-5752-E1A9-586865070490</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<referedAttribute>6692ABEC-2FD8-8D43-BA4E-0841FD6AB226</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddd" id="DDE6918D-3E80-C88A-03B2-FEA6BAFB8370">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-22 18:57:11 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddi" id="C6978B0B-25D8-660A-820D-D424ECF6D040">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-22 18:56:47 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F0584689-F1E3-6385-22B3-D49C824EFFF7" name="DDI PK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-22 18:56:45 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<engineerTo>
+<item key="60FBE7D1-3F5C-CDAE-7C1D-8CEBEE917DD5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>79185CC5-5D93-B26D-D08A-EE61399009E3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

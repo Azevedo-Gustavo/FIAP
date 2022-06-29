@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AB1ACF1-9BE8-6DA8-CD3A-B9887578F28A" name="LOGIN">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>F6FD5AD7-B561-84CD-BBA9-3321338474AD</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ds_email" id="746D132E-B383-ED91-2C0E-711D613CF5A8">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>1709FCF6-BD38-C3F1-A6C0-F8DF6630B36A</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_cd_usuario" id="BBD366F5-D606-1098-C01A-7351805651E9">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>AD7DF3D7-9639-7E27-8245-5BCA81F0A89F</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44572E73-F262-B5AE-7565-CE8D5911FCDB" referredColumn="3AD9FF87-2ADB-D87C-0F8A-B95CDFB04B75"/>
+</associations>
+</Column>
+<Column name="nr_senha" id="20C0781A-D3E5-8AD8-E0BA-91F6D64F4446">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>EE878258-1728-E845-EDF1-DBDD46DB5FE4</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5593A814-D5EE-7B44-CD02-F62BE39761D6" name="LOGIN_PK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>85CCDB40-6F97-AD2C-DFEA-8C964C45F3F4</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="746D132E-B383-ED91-2C0E-711D613CF5A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="985DF625-0332-D3DD-3571-2FAC19FC2B33" name="LOGIN__IDX">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<ownerDesignName>relationa</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9377E7A0-814E-17A3-947D-4A063E602879</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="BBD366F5-D606-1098-C01A-7351805651E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7ECA307D-130C-EDC0-3D13-232412510697" name="LOGIN_USUARIO_FK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>9377E7A0-814E-17A3-947D-4A063E602879</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBD366F5-D606-1098-C01A-7351805651E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

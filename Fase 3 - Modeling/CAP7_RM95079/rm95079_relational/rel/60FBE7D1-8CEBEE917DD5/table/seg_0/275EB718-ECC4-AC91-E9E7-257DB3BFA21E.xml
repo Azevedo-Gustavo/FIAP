@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="275EB718-ECC4-AC91-E9E7-257DB3BFA21E" name="TIPO_CONTA">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>83E1CAE6-5468-FCEC-168D-B8EFDB4E4D02</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_conta_bancaria" id="40FD516B-077F-A255-E587-9263CCACABFA">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>1B205994-DBF3-613C-0C66-22F5CB33C8F4</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BANCO_USUARIO_cd_usuario" id="C15D53CA-FE33-31F1-C920-D1A45F80DA5B">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>177CF991-C5E9-FF40-1570-040F0E0A6618</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59C4C197-556C-0653-D9FB-B67AE02B00DF" referredColumn="0D427610-76B6-5775-9950-0F35E5629017"/>
+</associations>
+</Column>
+<Column name="BANCO_cd_banco" id="70DBAD5C-9577-E4E5-BF95-2A7A49AF6BC5">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>96781A42-7D68-8664-88CD-54EAE9F1C97D</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59C4C197-556C-0653-D9FB-B67AE02B00DF" referredColumn="8804FF3B-7F4A-52C5-4D67-AC9110ED74BF"/>
+</associations>
+</Column>
+<Column name="ds_conta_bancaria" id="97ED826F-B7CF-EF96-D049-66D2BC83BB82">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>DCFA4A22-E553-D27F-D5BF-ECD9FDF881ED</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B3B6B10-A36E-32B8-89F9-49A659EEC6B0" name="TIPO_CONTA_PK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>C3D997F1-DC62-622E-03A6-CF2F235F56B7</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40FD516B-077F-A255-E587-9263CCACABFA"/>
+<colUsage columnID="C15D53CA-FE33-31F1-C920-D1A45F80DA5B"/>
+<colUsage columnID="70DBAD5C-9577-E4E5-BF95-2A7A49AF6BC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4F178D9-D1E9-9699-7EE8-0945091233A2" name="TIPO_CONTA_BANCO_FK">
+<createdBy>gusta</createdBy>
+<createdTime>2022-05-23 23:00:25 UTC</createdTime>
+<generatorID>2507D354-2AAC-91B4-DEC3-8505DB9DF027</generatorID>
+<ownerDesignName>relationa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C15D53CA-FE33-31F1-C920-D1A45F80DA5B"/>
+<colUsage columnID="70DBAD5C-9577-E4E5-BF95-2A7A49AF6BC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
